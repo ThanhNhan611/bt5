@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ThanhNhan</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-sm p-1 navbar-dark bg-success">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="https://i.pinimg.com/736x/81/9f/c1/819fc1d0301588020d3f881242451aae.jpg" alt="Logo" class="rounded-circle" style="width: 50px;"><br>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-list-ol"></i> Bài viết</a></li>
+        <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-video"></i> Video</a></li>
+        <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-circle-info"></i> Giới thiệu</a></li>
+        <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-calendar-days"></i> Sự kiện</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+            <i class="fa-solid fa-user"></i> Tài khoản
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Đăng nhập</a></li>
+            <li><a class="dropdown-item" href="#">Quên mật khẩu</a></li>
+            <li><a class="dropdown-item" href="#">Đăng ký thành viên</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="navbar-nav d-flex">
+        <li class="nav-item"><a class="nav-link" href="#">Tiếng Việt</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Tiếng Anh</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Carousel -->
+<div id="demo" class="container carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://i.pinimg.com/1200x/23/c5/a9/23c5a9f1ccf16f4536e1e8ecdda397c7.jpg" alt="img" class="w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="https://i.pinimg.com/1200x/52/a0/a6/52a0a6f6258919a7e4aef0dbcb704bde.jpg" alt="img" class="w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="https://i.pinimg.com/1200x/ac/25/54/ac255413677cf40c3111f91fc1aaca0c.jpg" alt="img" class="w-100">
+      <div class="carousel-caption">
+        <h3>Shin</h3>
+        <p>shinnnn</p>
+      </div>
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<!-- Main Content -->
+<div class="container mt-3">
+  <div class="row">
+    <!-- Left Column -->
+    <div class="col-sm-4">
+      <h3 class="text-success mt-2">Subjects</h3>
+      <ul class="list-group">
+        <li class="list-group-item active bg-info d-flex justify-content-between align-items-center">
+          <a class="nav-link text-dark" href="#">SOF308</a>
+          <span class="badge bg-primary rounded-pill text-white">10</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          <a class="nav-link text-dark" href="#">NET1041</a>
+          <span class="badge bg-primary rounded-pill text-white">15</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          <a class="nav-link text-dark" href="#">SOF3032</a>
+          <span class="badge bg-primary rounded-pill text-white">12</span>
+        </li>
+      </ul>
+
+      <!-- Featured Posts Card -->
+      <div class="card mt-3">
+        <div class="card-header">
+          <div class="card-title">baif viet noi bat</div>
+        </div>
+        <div class="card-body">
+          <!-- Repeatable Featured Items -->
+          <!-- 1 -->
+          <div class="row mb-3">
+            <div class="col-5">
+              <img src="https://i.pinimg.com/736x/63/49/c5/6349c52200ac09116da9801a851a23d1.jpg" alt="img" class="rounded-circle d-block w-100">
+            </div>
+            <div class="col-7">
+              <strong>thanhnhan</strong>
+              <p>hahahahahahahhahahahahahhahahahhahahahah</p>
+            </div>
+          </div>
+
+          <!-- 2 -->
+          <div class="row mb-3">
+            <div class="col-5">
+              <img src="https://i.pinimg.com/736x/1e/3c/fc/1e3cfccd70b94810af34e0ec9f1d75b9.jpg" alt="img" class="rounded-circle d-block w-100">
+            </div>
+            <div class="col-7">
+              <strong>thanhnhan</strong>
+              <p>kkakakakakakkakkakkakakakkakakaka</p>
+            </div>
+          </div>
+
+          <!-- 3 -->
+          <div class="row mb-3">
+            <div class="col-5">
+              <img src="https://i.pinimg.com/736x/a3/d0/8b/a3d08b3bb802af3aa6da37a492944e76.jpg" alt="img" class="rounded-circle d-block w-100">
+            </div>
+            <div class="col-7">
+              <strong>thanhnhan</strong>
+              <p>hihihiihiiihhhh</p>
+            </div>
+          </div>
+
+          <!-- 4 -->
+          <div class="row mb-3">
+            <div class="col-5">
+              <img src="https://i.pinimg.com/736x/72/c8/5f/72c85f099185df483fa4d60f60e0ada8.jpg" alt="img" class="rounded-circle d-block w-100">
+            </div>
+            <div class="col-7">
+              <strong>thanhnhan</strong>
+              <p>hhhehehehehhe</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Column -->
+    <div class="col-sm-8">
+      <h2 class="text-info">Tất cả bài viết</h2>
+      <div class="row">
+        <!-- Repeated Articles -->
+        <!-- Article 1 - 4 -->
+        <!-- Bạn có thể dùng vòng lặp server-side nếu dùng Razor hoặc PHP để giảm lặp -->
+        <div class="col-md-6 mb-3">
+          <div class="card h-100">
+            <h5 class="card-header fw-bold">
+              Phương pháp tập Pilates giúp phục hồi chấn thương cột sống
+              <i class="fa-regular fa-comment"></i> 16
+            </h5>
+            <div class="card-body">
+              <div class="d-flex justify-content-center">
+                <img src="https://i.pinimg.com/736x/23/c3/14/23c31461ee8af9a5d9b9b5cded0c425b.jpg" style="height: 190px; object-fit: cover;">
+              </div>
+              <p class="card-text mt-2" style="font-size: 14px;">
+                Ngoài việc giúp duy trì vóc dáng, cải thiện sự linh hoạt, dẻo dai cho người tập, Pilates giúp cơ bắp và các khớp mọc dài hơn, kéo giãn hơn...
+              </p>
+            </div>
+          </div>
+        </div>
+         <div class="col-md-6 mb-3">
+          <div class="card h-100">
+            <h5 class="card-header fw-bold">
+              Phương pháp tập Pilates giúp phục hồi chấn thương cột sống
+              <i class="fa-regular fa-comment"></i> 16
+            </h5>
+            <div class="card-body">
+              <div class="d-flex justify-content-center">
+                <img src="https://i.pinimg.com/736x/23/c3/14/23c31461ee8af9a5d9b9b5cded0c425b.jpg" style="height: 190px; object-fit: cover;">
+              </div>
+              <p class="card-text mt-2" style="font-size: 14px;">
+                Ngoài việc giúp duy trì vóc dáng, cải thiện sự linh hoạt, dẻo dai cho người tập, Pilates giúp cơ bắp và các khớp mọc dài hơn, kéo giãn hơn...
+              </p>
+            </div>
+          </div>
+        </div>
+         <div class="col-md-6 mb-3">
+          <div class="card h-100">
+            <h5 class="card-header fw-bold">
+              Phương pháp tập Pilates giúp phục hồi chấn thương cột sống
+              <i class="fa-regular fa-comment"></i> 16
+            </h5>
+            <div class="card-body">
+              <div class="d-flex justify-content-center">
+                <img src="https://i.pinimg.com/736x/23/c3/14/23c31461ee8af9a5d9b9b5cded0c425b.jpg" style="height: 190px; object-fit: cover;">
+              </div>
+              <p class="card-text mt-2" style="font-size: 14px;">
+                Ngoài việc giúp duy trì vóc dáng, cải thiện sự linh hoạt, dẻo dai cho người tập, Pilates giúp cơ bắp và các khớp mọc dài hơn, kéo giãn hơn...
+              </p>
+            </div>
+          </div>
+        </div>
+         <div class="col-md-6 mb-3">
+          <div class="card h-100">
+            <h5 class="card-header fw-bold">
+              Phương pháp tập Pilates giúp phục hồi chấn thương cột sống
+              <i class="fa-regular fa-comment"></i> 16
+            </h5>
+            <div class="card-body">
+              <div class="d-flex justify-content-center">
+                <img src="https://i.pinimg.com/736x/23/c3/14/23c31461ee8af9a5d9b9b5cded0c425b.jpg" style="height: 190px; object-fit: cover;">
+              </div>
+              <p class="card-text mt-2" style="font-size: 14px;">
+                Ngoài việc giúp duy trì vóc dáng, cải thiện sự linh hoạt, dẻo dai cho người tập, Pilates giúp cơ bắp và các khớp mọc dài hơn, kéo giãn hơn...
+              </p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+      <!-- Pagination -->
+      <ul class="pagination pagination-sm justify-content-center mt-4">
+        <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-success p-3 mt-4">
+  <p class="text-center text-white-50 mb-2">
+    <i class="fa-solid fa-music small me-2"></i>
+    Nguyen Thi Thanh Nhan
+    <i class="fa-solid fa-music small ms-2"></i>
+  </p>
+</footer>
+
+</body>
+</html>
